@@ -1,3 +1,8 @@
+//Interface having only one abstract method is called functional interface
+//Before Java 8, we had to create anonymous classes for single-method interfaces.
+//Contains exactly one abstract method (though it can have multiple default or static methods).
+//Primarily used in lambda expressions and functional programming.
+
 
 //This annotation to make an interface have only one method
 @FunctionalInterface
